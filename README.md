@@ -2,6 +2,8 @@
 
 ExamAI is a Streamlit-based web application that helps students and learners by automatically generating study materials from YouTube educational content. The app can search for relevant videos, generate quiz questions, and create summaries from video content.
 
+### Note: I will remove my API keys(that is in the code) after two days.
+
 ## Features
 
 - YouTube video search functionality
@@ -50,29 +52,6 @@ Note: You'll need to:
 - A Google API key for Gemini Pro model
 - ngrok account (free)
 
-## Local Installation (Alternative Method)
-
-If you prefer running locally:
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd examai
-```
-
-2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up your API keys:
-   - Get a YouTube Data API key from [Google Cloud Console](https://console.cloud.google.com)
-   - Get a Gemini Pro API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
-
-4. Run the Streamlit app:
-```bash
-streamlit run app.py
-```
 
 ## Usage
 
