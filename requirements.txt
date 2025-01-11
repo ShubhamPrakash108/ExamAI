@@ -1,0 +1,7 @@
+streamlit
+google-api-python-client
+isodate
+langchain_google_genai
+youtube-transcript-api
+google-cloud-aiplatform
+educhain
