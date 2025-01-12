@@ -114,7 +114,3 @@ print(f"New URL: {public_url}")
 - Dependent on Gemini Pro API availability
 - ngrok free tier connections expire after 2 hours
 - May need to restart Colab runtime occasionally
-
-## License
-
-[MIT License](LICENSE)
