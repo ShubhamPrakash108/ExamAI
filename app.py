@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 # Initialize the AI model
 gemini_model = ChatGoogleGenerativeAI(
     model="gemini-1.5-pro",
-    google_api_key="AIzaSyD3ijBgZ4uU6GlRfIL79rFzrkyBcNVM9Ug"
+    google_api_key=""
 )
 gemini_config = LLMConfig(custom_model=gemini_model)
 client = Educhain(gemini_config)
@@ -92,7 +92,7 @@ def display_qna(questions):
         st.markdown("---")
 # Rest of the code remains the same
 def get_youtube_recommendations(query, max_results=5):
-    api_key = "AIzaSyA_lI7cG4dWRspM7Sd2bVY_xmIXeZSSZJc"  
+    api_key = ""  
     youtube = build("youtube", "v3", developerKey=api_key)
     search_response = youtube.search().list(
         q=query,
